@@ -28,9 +28,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+	namespace 'com.alphacep.vosk_flutter'
     compileSdk 33
-
-    namespace 'org.vosk.vosk_flutter'
+    // namespace 'org.vosk.vosk_flutter'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
